@@ -1,7 +1,7 @@
 {
   "spider": "./jar/fan.txt;md5;e7c6b481d880ce98ced16bd11d936e71",
   "lives": [
-    {"name": "live","boot": false,"type": 0,"url": "./tv.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://logo.ugigc.dpdns.org/{name}.png"}
+    {"name": "live","boot": false,"type": 0,"url": "./list.txt","playerType": 2,"ua": "okhttp/3.8.1","timeout": 20,"epg": "https://epg.112114.xyz/?ch={name}&date={date}","logo": "https://logo.ugigc.dpdns.org/{name}.png"}
   ],
   "wallpaper": "https://qist.cc/api/api.php",
   "sites": [
@@ -13,8 +13,6 @@
     {"key": "热播影视","name": "热播｜APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.rbotv.cn"},"jar": "./xiaosa/spider.jar;md5;8fbf269d1d3c66b85f43cb1904f53ea8"},
     {"key": "天天影视","name": "天天｜APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://tt.ysdqjs.cn"},"jar": "./xiaosa/spider.jar;md5;8fbf269d1d3c66b85f43cb1904f53ea8"},
     {"key": "浪酷影视","name": "浪酷｜APP","type": 3,"api": "csp_AppRJ","searchable": 1,"quickSearch": 1,"filterable": 0,"ext": {"url": "http://v.lkuys.cn"},"jar": "./xiaosa/spider.jar;md5;8fbf269d1d3c66b85f43cb1904f53ea8"},
-    {"key": "行动","name": "行动｜APP","type": 3,"api": "csp_AppSy","ext": {"url": "http://160.202.246.9:2356","key1": "aassddwwxxllsx1x","key2": "aassddwwxxllsx1x","key3": "aassddwwxxllsx1x"},"jar": "./xiaosa/spider.jar;md5;8fbf269d1d3c66b85f43cb1904f53ea8"},
-    {"key": "追忆","name": "追忆｜APP","type": 3,"api": "csp_AppSy","ext": {"url": "http://110.42.7.130:1866","key1": "aassddwwxxllsx1x","key2": "2083c87e98b6ce08","key3": "2083c87e98b6ce08"},"jar": "./xiaosa/spider.jar;md5;8fbf269d1d3c66b85f43cb1904f53ea8"},
     {"key": "咖啡","name": "咖啡｜APP","type": 3,"quickSearch": 1,"api": "csp_AppGet2","ext": {"url": "","site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/2.txt","dataKey": "qwertyuiopqwertt","dataIv": "qwertyuiopqwertt","deviceId": "","version": "109","ua": "okhttp/3.10.0"},"jar": "./xiaosa/spider.jar;md5;8fbf269d1d3c66b85f43cb1904f53ea8"},
     {"key": "麻花","name": "麻花｜APP","type": 3,"quickSearch": 1,"api": "csp_AppGet","ext": {"url": "","site": "https://apicoss-alimama-com-1307821617.file.myqcloud.com/Uploadsget","dataKey": "q7gj4f9br3fls6nh","dataIv": "q7gj4f9br3fls6nh","deviceId": "","version": ""},"jar": "./xiaosa/spider.jar;md5;8fbf269d1d3c66b85f43cb1904f53ea8"},
     {"key": "豆丁","name": "豆丁｜APP","type": 3,"quickSearch": 1,"api": "csp_AppGet","ext": {"url": "","site": "https://vip.123pan.cn/1848451100/zl/xfdd.txt","dataKey": "xasdasdqwertyuio","dataIv": "xasdasdqwertyuio","deviceId": "","version": ""},"jar": "./xiaosa/spider.jar;md5;8fbf269d1d3c66b85f43cb1904f53ea8"},
@@ -150,7 +148,12 @@
   ],
   "parses": [
     {"name": "Json聚合","type": 3,"url": "Demo"},
-    {"name": "jx","type": 0,"url": "https://jx.m3u8.tv/jx/jx.php?url="},
+    {"name": "jx0","type": 0,"url": "https://z1.m1907.top/?jx="},
+    {"name": "jx1","type": 0,"url": "https://100675jx.cn?url="},
+    {"name": "jx2","type": 0,"url": "https://z1.190000000007.top/?jx="},
+    {"name": "nnxv","type": 0,"url":"https://jx.nnxv.cn/tv.php?url="},
+    {"name": "paoyun","type": 0,"url":"https://www.pouyun.com/?url="},
+    {"name": "jx3","type": 0,"url": "https://jx.m3u8.tv/jx/jx.php?url="},
     {"name": "羽路均沾","type": 0,"url": "https://ylu.cc/index.php?url="},
     {"name": "999","type": 0,"url": "https://huayong.net/999/?v="},
     {"name": "jx5","type": 0,"url": "https://huayong.net/jx5/?url="},
